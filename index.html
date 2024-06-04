@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="./img/favicon2.png" type="image/x-icon" />
+    <title>Dr Youri Andrikopoulos</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="./js/index.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+          publicKey: "vhgcHGCck7g5DWbIw",
+        });
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            emailjs.sendForm("contact_service", "contact_form", this).then(
+              () => {
+                console.log("SUCCESS!");
+              },
+              (error) => {
+                console.log("FAILED...", error);
+              }
+            );
+          });
+      };
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="icons-navbar">
+        <div class="tel-header">
+          <p>Rua Harmonia, 1323, Térreo</p>
+        </div>
+        <div class="icons-header">
+          <img src="./img/envelope-fill2.svg" alt="icone email">
+          <p>secretaria.dryouricoloprocto@gmail.com</p>
+
+          <img src="./img/telephone1.svg" alt="icone telefone">
+          <p >(11) 91008-1027</p>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <a href="../index.html"
+          ><img src="./img/logo.png" alt="Logo" width="250px"
+        /></a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <div class="nav-itens">
+          <ul class="list-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#local">Localização</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+          <button class="btn-header">
+            <a
+              href="https://agendarconsulta.com/perfil/dr-paola-trindade-meinicke-1709999315"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color: #ffffff"
+              >Agende uma consulta</a
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="Home">
+        <div class="home1">
+          <p class="cargo">Médico Coloproctologista</p>
+          <h2 class="nomedele">
+            Dr. Youri <br />
+            Andrikopoulos
+          </h2>
+          <button class="btn-consulta">Agende uma consulta</button>
+        </div>
+
+        <a
+          href="https://wa.me/5511910081027?text=Adorei%20seu%20artigo"
+          style="
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 1px 1px 2px #888;
+            z-index: 1000;
+          "
+          target="_blank"
+        >
+          <i style="margin-top: 16px" class="fa fa-whatsapp"></i>
+        </a>
+      </section>
+
+      <section class="Sobre" id="about">
+        <div class="div1">
+          <div class="ft">
+            <img src="./img/about.jpg (1).png" class="foto2" />
+          </div>
+
+          <div class="texto">
+            <p>Sobre mim</p>
+            <h2>Dr Youri Andrikopoulos</h2>
+            <p>
+              Com experiência, profundo compromisso com a saúde intestinal e devoção aos seus pacientes, O Dr. Youri Barbosa Andrikopoulos, destaca-se como uma referência em Coloproctologia.
+            </p>
+            <p>
+              Como médico especializado nessa área, ele oferece atendimentos abrangentes e procedimentos especializados para uma variedade de condições.
+            </p>
+            <p>
+              Formado em Medicina pela Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória (EMESCAM), na capital do Espírito Santo, o Dr. Youri fez Residência Médica em Cirurgia Geral no Hospital Geral do Grajaú, pela Universidade Santo Amaro (HGG/UNISA); e Residência Médica em Coloproctologia pelo Hospital Heliópolis (HH), ambos em São Paulo, capital.
+            </p>
+            <p>Na sequência, foi aprovado e recebeu Título de Especialista em Coloproctologia pela Sociedade Brasileira de Coloproctologia e Associação Médica Brasileira (SBCP/AMB).</p>
+            <p>Atua em vários serviços da Grande São Paulo, além de Membro da Organização Brasileira de Doença de Crohn e Colite (GEDIIB).</p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="cards">
+
+          <div class="container-cards">
+
+          <div class="cardd">
+            <img src="./img/Background.png" width="30px" height="30px" alt="" />
+            <div>
+              <h3>Experiência</h3>
+              <p>
+                O seu tratamento será realizado por um
+                coloproctologista que atua há mais de 10 anos na área.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/Background.png" width="30px" height="30px" alt="" />
+            <div>
+              <h3>Atendimento</h3>
+              <p>
+                Da recepção até o consultório o seu
+                conforto e bem-estar são a nossa prioridade.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/Background.png" width="30px" height="30px" alt="" />
+            <div>
+              <h3>Agilidade</h3>
+              <p>
+                Fazemos o diagnóstico através da história clínica e exame proctológico.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      <div class="divisoriakkk"></div>
+
+
+      <section class="Serviços" id="servicos">
+
+        <div class="servicosDiv1">
+          <p class="espec1s">Serviços</p>
+          <h2 class="especs">
+          Outras Especialidades
+          </h2>
+          <p class="p"> Se você possui Doença Inflamatória Intestinal (DII) e precisa de um coloproctologista, clique no botão abaixo para agendar a sua consulta.
+          </p>
+          <button class="btn-consulta">Agende uma consulta</button>
+        </div>
+
+
+        <div class="servicosDiv2">
+
+          <div class="separador">
+            <div class="cardServicos">
+              
+              <div class="carddd">
+               
+                <h3> <img src="./img/Symbol.png" width="40px" height="30px" alt="" /> Ligadura Elástica</h3>
+                <p>
+                  Procedimento não cirúrgico no qual uma banda elástica é aplicada na base da hemorroida interna para interromper o fluxo sanguíneo, levando à sua fixação no canal anal.
+                </p>
+              </div>
+            </div>
+            <div class="cardServicos">
+             
+              <div class="carddd">
+                <h3 class="teste"><img src="./img/Symbol.png" width="40px" height="30px" alt="" /> Anuscopia e <br> Retossigmoidoscopia</h3>
+                <p>
+                  Procedimento endoscópico para examinar o canal anal (anuscopia) e o reto e sigmoide. Utilizado para diagnosticar condições como hemorroidas internas, fístulas anais e anite (inflamação no canal anal), câncer anal e colorretal, pólipos intestinais e doença inflamatória intestinal.
+                </p>
+              </div>
+            </div>
+          </div>
+            <div>
+            <div class="cardServicos">
+              
+              <div class="carddd">
+                <h3><img src="./img/Symbol.png" width="40px" height="30px" alt="" /> Laser Diodo/CO2</h3>
+                <p>
+                  Tratar condições como doença hemorroidária, fístulas anorretais e doença pilonidal, além de plicomas, condilomas e fissuras anais, respectivamente. Opção menos invasiva em comparação com procedimentos cirúrgicos tradicionais.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </section>
+
+
+      <div class="divisoriakkk"></div>
+
+
+      <section class="local" id="local">
+        <p class="espec1s">Localização</p>
+        <div class="locald">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9461355638655!2d-46.69330972378789!3d-23.57037796192528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5706c0cb93f9%3A0xe73bad7fce1d0053!2sAv.%20Brig.%20Faria%20Lima%2C%201461%20-%20Jardim%20Paulistano%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001452-921!5e0!3m2!1spt-BR!2sbr!4v1716667281375!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="adress-info">
+                <div class="local-info">
+                    <div class="title-info">
+                        <img src="./img/geo-alt-fill.svg" alt="">
+                        <h5>Consultorio Jardim Paulistano</h5>
+                    </div>
+                    <p class="p-info">ENDEREÇO: Rua Cardeal Arcoverde, 359, <br> Pinheiros - São Paulo - SP, 13104-072</p>
+                </div>
+                <div class="info">
+                    <img src="./img/envelope-fill.svg" alt="icone email">
+                    <a href="mailto:contatodrapaolaprocto@gmail.com" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                        <p class="p-info">secretaria.dryouricoloprocto@gmail.com</p>
+                    </a>
+                </div>
+                <div class="info">
+                    <img src="./img/whatsapp.svg" alt="icone whatssap">
+                    <a href="https://api.whatsapp.com/send/?phone=5511910081027&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                        <p class="p-info">(11) 91008-1027</p>
+                    </a>
+                </div>
+                <div class="info">
+                    <img src="./img/telephone.svg" alt="icone telefone">
+                    <p class="p-info">(11) 91008-1027</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <div class="divisoriakkk"></div>
+
+      <section class="conteiner-contact" id="contact">
+        <p class="espec1s">EMAIL</p>
+        <h3> Contato</h3>
+        <form id="contact-form">
+            <fildset class="input-group1">
+                <input type="text" placeholder="Nome Completo" id="name" required>
+                <input type="email" placeholder="Email" id="email" required>
+                <input type="tel" placeholder="Telefone" id="tel">
+            </fildset>
+            <fildset class="input-group2">
+                <input type="text" placeholder="Assunto" id="subject" required>
+                <input type="text" placeholder="Mensagem" id="message" required>
+                 <button class="btn-primary" onclick="sendMail()">Enviar!</button>
+            </fildset> 
+
+         
+          
+        </form>
+
+      </section>
+
+
+     
+
+
+    </main>
+    <footer>
+      <div class="logo-footer">
+        <img src="./img/logo.png" width="350" alt="" style="background-color: #ffffff; border-radius: 20px;">
+        <p>© Dr. Youri Andrikopoulos - Coloproctologia</p>
+     </div>
+    <div class="nav-footer">
+        <div class="links-nav">
+            <h4>Navegação</h4>
+            <ul class="list-nav">
+              <li><a href="#"  style="color: #fff;">Home</a></li>
+              <li><a href="#about" style="color: #fff;">Sobre</a></li>
+              <li><a href="#servicos" style="color: #fff;">Serviços</a></li>
+              <li><a href="#local" style="color: #fff;">Localização</a></li>
+              <li><a href="#contact" style="color: #fff;">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-nav">
+            <h4>Contatos</h4>
+            <div class="info-nav">
+                <img src="./img/envelope-fill.svg" alt="icone email">
+                <p>secretaria.dryouricoloprocto@gmail.com</p>
+            </div>
+            <div class="info-nav">
+              <img src="./img/whatsapp.svg" alt="icone whatssap">
+                <p>(11) 91008-1027</p>
+            </div>
+            <div class="info-nav">
+                <img src="./img/telephone.svg" alt="icone telefone">
+                <p>(11) 91008-1027</p>
+            </div>
+        </div>
+
+        <!-- <div class="icons-nav">
+
+            <a href="https://www.linkedin.com/in/drapaolameinicke" target="_blank" rel="noopener noreferrer"><img
+                    class="icon-redes" src="./img/linkdlin.svg" alt=""></a>
+            <a href="https://www.instagram.com/drapaola.procto/" target="_blank" rel="noopener noreferrer"><img
+                    class="icon-redes" src="./img/Insta-icon.svg" alt=""></a>
+            <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
+                target="_blank" rel="noopener noreferrer"><img class="icon-redes" src="./img/whatssap-icon.svg"
+                    alt=""></a>
+        </div> -->
+    </div>
+    </footer>
+    <script>document.addEventListener("DOMContentLoaded", function() {
+      const cards = document.querySelectorAll(".cardServicos");
+    
+      function checkSlide() {
+        cards.forEach(card => {
+          const slideInAt = (window.scrollY + window.innerHeight) - card.offsetHeight / 2;
+          const cardBottom = card.offsetTop + card.offsetHeight;
+          const isHalfShown = slideInAt > card.offsetTop;
+          const isNotScrolledPast = window.scrollY < cardBottom;
+          if (isHalfShown && isNotScrolledPast) {
+            card.classList.add("active");
+          } else {
+            card.classList.remove("active");
+          }
+        });
+      }
+    
+      window.addEventListener("scroll", checkSlide);
+    });
+    
+    
+    function toggleMenu() {
+      document.querySelector('.navbar').classList.toggle('active');
+    }
+    </script>
+  </body>
+</html>
