@@ -30,14 +30,6 @@ header {
   background-color: #f7f8f7;
 }
 
-
-
-
-
-
-
-
-
 header .icons-navbar {
   display: flex;
   flex-direction: row;
@@ -47,13 +39,27 @@ header .icons-navbar {
 }
 @media screen and (max-width: 419px) {
   header .icons-navbar {
-text-align: center;
-display: flex;
+    text-align: center;
+    display: flex;
+  }
+}
+@media screen and (max-width: 440px) {
+  header .tel-header {
+    display: none;
+  }
+}
+@media screen and (max-width: 440px) {
+  header  .emaillll {
+display: none;
+
+  
+
   }
 }
 header .icons-navbar .icon-contato {
   width: 30px;
 }
+
 @media screen and (max-width: 419px) {
   header .icons-navbar .icon-contato {
     width: 25px;
@@ -71,7 +77,7 @@ header .icons-navbar .tel-header p {
 }
 @media screen and (max-width: 419px) {
   header .icons-navbar .tel-header p {
-  display: none;
+    display: none;
   }
 }
 header .icons-navbar .icons-header {
@@ -82,13 +88,13 @@ header .icons-navbar .icons-header {
   padding: 5px 30px 5px 30px;
   gap: 20px;
 
-
   font: normal normal 16px "Montserrat", sans-serif;
-  color: #011a41
-}@media screen and (max-width: 400px) {
+  color: #011a41;
+}
+@media screen and (max-width: 400px) {
   header .icons-navbar .icons-header {
-   display: none;
-   color: #ffffff;
+    display: none;
+    color: #ffffff;
   }
 }
 header .navbar {
@@ -144,8 +150,6 @@ header .navbar .nav-itens .list-nav {
   }
 }
 
-
-
 header .navbar .nav-itens .list-nav li {
   font: normal normal 16px "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -160,11 +164,9 @@ header .navbar .nav-itens .list-nav li {
 
   @media screen and (max-width: 400px) {
     .links-nav {
- display: none;
+      display: none;
     }
   }
-
-
 }
 header .navbar .nav-itens .list-nav li a {
   color: #011a41;
@@ -384,7 +386,7 @@ header .btn-header {
 }
 .treatment .cards .card-treatment ul li {
   list-style-type: disc;
-  color: #ffffff
+  color: #ffffff;
 }
 .treatment .cards .card-treatment p {
   font: normal 500 16px "Montserrat", sans-serif;
@@ -436,7 +438,11 @@ header .btn-header {
 @media screen and (max-width: 400px) {
   .conteiner-contact {
     width: 90%;
-
+  }
+}
+@media screen and (max-width: 440px) {
+  .conteiner-contact {
+    width: 90%;
   }
 }
 
@@ -463,9 +469,6 @@ header .btn-header {
   }
 }
 
-
-
-
 .conteiner-contact form .input-group1 {
   display: flex;
   flex-direction: column;
@@ -490,7 +493,7 @@ header .btn-header {
 .conteiner-contact form input {
   width: 290px;
   padding: 10px;
-  border:#011a41 3px solid; 
+  border: #011a41 3px solid;
   border-radius: 5px;
 }
 @media screen and (max-width: 590px) {
@@ -499,7 +502,7 @@ header .btn-header {
   }
 }
 .conteiner-contact form .btn-primary {
-  background-color:#011a41;
+  background-color: #011a41;
   padding: 10px;
   color: #f7f8f7;
   font: normal 500 16px "Montserrat", sans-serif;
@@ -507,9 +510,8 @@ header .btn-header {
   border-radius: 5px;
   margin-bottom: 18px;
 }
-.input-group4{
+.input-group4 {
   display: flex;
-
 }
 .local {
   display: flex;
@@ -520,15 +522,14 @@ header .btn-header {
   gap: 1.7rem;
   font-family: "Montserrat", sans-serif;
   margin: 3rem 0;
-}@media screen and (max-width: 440px) {
+}
+@media screen and (max-width: 440px) {
   .local {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-  
-   
   }
 }
 
@@ -536,15 +537,14 @@ header .btn-header {
   height: 28rem;
   width: 52rem;
   border-radius: 20px;
-
-}@media screen and (max-width: 440px) {
-  .iframe{
-  width: 80%;
+}
+@media screen and (max-width: 440px) {
+  .iframe {
+    width: 80%;
   }
 }
 
-
-.locald{
+.locald {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -552,21 +552,20 @@ header .btn-header {
   height: 60%;
   background-color: #011a41;
   border-radius: 20px;
-}@media screen and (max-width: 440px) {
+}
+@media screen and (max-width: 440px) {
   .locald {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-  gap: 20px;
+    gap: 20px;
     width: 100%;
-  height: 160%;
-  border-radius: 20px;
-   
+    height: 160%;
+    border-radius: 20px;
   }
 }
-
 
 @media screen and (max-width: 1030px) {
   .local iframe {
@@ -603,9 +602,8 @@ header .btn-header {
 }
 
 @media screen and (max-width: 430px) {
-   .adress-info {
+  .adress-info {
     width: 70%;
-  
   }
 }
 .local .adress-info .local-info {
@@ -639,9 +637,6 @@ header .btn-header {
   }
 }
 
-
-
-
 footer {
   background-color: #011a41;
   display: flex;
@@ -659,26 +654,23 @@ footer {
 }
 @media screen and (max-width: 430px) {
   footer {
-    
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 12px;
-   
   }
 }
 footer .logo-footer {
-  
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 40px;
-  
 }
 footer .logo-footer p {
   font: normal normal 16px "Montserrat", sans-serif;
-}@media only screen and (max-width: 400px) {
+}
+@media only screen and (max-width: 400px) {
   .aaaa {
     display: none;
     font: normal 500 10px "Montserrat", sans-serif;
@@ -692,7 +684,6 @@ footer .nav-footer {
   flex-direction: row;
   gap: 4rem;
   color: rgb(255, 255, 255);
- 
 }
 @media screen and (max-width: 530px) {
   footer .nav-footer {
@@ -708,18 +699,15 @@ footer .nav-footer .links-nav {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 footer .nav-footer .links-nav h4 {
   font-size: 20px;
-
 }
 footer .nav-footer .links-nav ul {
   display: flex;
   flex-direction: column;
   list-style: none;
   gap: 10px;
-
 }
 footer .nav-footer .contact-nav {
   font: normal normal 16px "Montserrat", sans-serif;
@@ -736,18 +724,17 @@ footer .nav-footer .contact-nav .info-nav {
   flex-direction: row;
   list-style: none;
   gap: 10px;
-}@media screen and (max-width: 400px) {
-   .info-nav  {
+}
+@media screen and (max-width: 400px) {
+  .info-nav {
     flex-direction: column;
     font-size: 12px;
-
   }
 }
 @media screen and (max-width: 36px) {
   footer .nav-footer .contact-nav .info-nav {
     flex-direction: column;
     font-size: 12px;
-
   }
 }
 footer .icons-nav {
@@ -766,13 +753,12 @@ footer .icons-nav {
   display: flex;
   height: 70vh;
   width: 99.1vw;
-  background-image: url("../img/Group\ 3\ \(1\).png");
+  background-image: url("../img/Group.png");
   background-size: cover;
 }
 
-@media only screen and (max-width: 400px) {
-
-  .Home{
+@media only screen and (max-width: 428px) {
+  .Home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -780,34 +766,30 @@ footer .icons-nav {
     height: 100vh;
     width: 100%;
     background-image: url("../img/about.jpg.png");
-    background-size:cover;
+    background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
   }
 }
 
-
 .home1 {
   display: flex;
-  
   height: 100%;
   align-items: initial;
   justify-content: center;
   flex-direction: column;
   padding: 80px;
   gap: 50px;
-  
-}@media only screen and (max-width: 400px) {
-  .home1{
+}
+
+@media only screen and (max-width: 428px) {
+  .home1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
-
     width: 20%;
-
-
   }
 }
 
@@ -819,7 +801,9 @@ footer .icons-nav {
 .nomedele {
   color: #ffffff;
   font-size: 70px;
-}@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 428px) {
   .cargo {
     font-size: 15px;
   }
@@ -828,10 +812,7 @@ footer .icons-nav {
     font-size: 34px;
     color: #ffffff;
   }
-
-  
 }
-
 
 .btn-consulta {
   background-color: #2f1009;
@@ -842,18 +823,17 @@ footer .icons-nav {
   width: 200px;
   height: 50px;
   border-radius: 10px;
-}@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 428px) {
   .btn-consulta {
     padding: 5px;
     font-size: 15px;
     width: 200px;
     height: 50px;
   }
-
- 
-
-  
 }
+
 .btn-consulta:hover {
   background-color: #011a41;
 }
@@ -866,6 +846,12 @@ footer .icons-nav {
   padding: 80px;
 }
 
+@media only screen and (max-width: 428px) {
+  .home2 {
+    padding: 20px;
+  }
+}
+
 .foto {
   width: 750px;
   height: 750px;
@@ -873,58 +859,42 @@ footer .icons-nav {
 }
 
 .Sobre {
-display: flex;
-flex-direction: column;
-height: 100vh;
-}@media only screen and (max-width: 400px) {
-  .Sobre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
-margin-bottom: 200px;
-height: 240vh;
-width: 100%;
-
-  }
-  
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-
+@media only screen and (max-width: 428px) {
+  .Sobre {
+    height: auto;
+    padding: 20px;
+  }
+}
 
 .div1 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
- height: 70%;
+  height: 70%;
+}
 
-}@media only screen and (max-width: 400px) {
-  .div1{
-    display: flex;
-
-flex-wrap: wrap;
-height: 200vh;
-width: 100%;
-align-items: center;
-justify-content: center;
+@media only screen and (max-width: 428px) {
+  .div1 {
+    flex-direction: column;
+    height: auto;
   }
-  
 }
 
 .foto2 {
   width: 500px;
   height: 550px;
   border-radius: 20px;
-
-}@media only screen and (max-width: 400px) {
-  .foto2{
-  
-display: none;
-  }
-  
 }
-
+@media only screen and (max-width: 428px) {
+  .foto2 {
+    display: none;
+  }
+}
 
 .texto {
   display: flex;
@@ -934,19 +904,15 @@ display: none;
   text-align: justify;
   width: 30%;
   gap: 20px;
-}@media only screen and (max-width: 400px) {
-  .texto{
-  
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+}
 
-width: 80%;
-text-align: center;
-gap: 20px;
+@media only screen and (max-width: 428px) {
+  .texto {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 130vh;
   }
-  
 }
 
 .cards {
@@ -955,68 +921,63 @@ gap: 20px;
   justify-content: center;
   width: 100%;
   height: 200px;
-
-
-}@media only screen and (max-width: 400px) {
-  .cards{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
- 
-  }
-  
 }
 
+@media only screen and (max-width: 428px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 80vh;
+  }
+}
 
-.container-cards{
+.container-cards {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
-height: 100%;
-width: 60%;
-  border: solid 1px #CACEE3;
+  height: 100%;
+  width: 60%;
+  border: solid 1px #cacee3;
   border-radius: 20px;
   gap: 20px;
-}@media only screen and (max-width: 400px) {
-  .container-cards{
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+}
 
-
+@media only screen and (max-width: 428px) {
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
-  
 }
 
 .card {
   display: flex;
   gap: 20px;
-  border-left: solid 1px #CACEE3;
+  border-left: solid 1px #cacee3;
   padding: 10px;
-}@media only screen and (max-width: 400px) {
-  .card {
-  display: flex;
-
-
-
-  }
-  
 }
+
+@media only screen and (max-width: 428px) {
+  .card {
+    display: flex;
+  }
+}
+
 .cardd {
   display: flex;
-
-gap: 20px;
-
+  gap: 20px;
   padding: 10px;
-}@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 428px) {
   .cardd {
-  display: flex;
-
-
-  border: solid 1px #CACEE3;
-  border-radius: 20px;
+    display: flex;
+    border: none;
+    border-radius: 20px;
   }
-}  
+}
 
 .whatsapp {
   display: block;
@@ -1027,10 +988,12 @@ gap: 20px;
   width: 99.12vw;
   height: 200px;
   background-color: #011a41;
-}@media screen and (max-width: 440px) {
-  .divisoriakkk{
-  width: 100%;
-  height: 50px;
+}
+
+@media screen and (max-width: 440px) {
+  .divisoriakkk {
+    width: 100%;
+    height: 50px;
   }
 }
 
@@ -1038,6 +1001,7 @@ gap: 20px;
   width: 100vw;
   height: 100vh;
 }
+
 .Contato {
   width: 100vw;
   height: 100vh;
@@ -1047,18 +1011,20 @@ gap: 20px;
   display: flex;
   width: 99.1vw;
   height: 100vh;
-
   justify-content: center;
   align-items: center;
+}
 
-}@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 428px) {
   .Serviços {
-  display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- height: 220vh;
- gap: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    height: auto;
+    gap: 100px;
+    width: 100%;
   }
 }
 
@@ -1071,22 +1037,17 @@ gap: 20px;
   flex-direction: column;
   margin-left: 200px;
   gap: 50px;
-}@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 428px) {
   .servicosDiv1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 80%;
-  height: 20%;
-  margin-left: 0px;
- 
-
-  h2{
-      font-size: 25px;
-
-  }
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin-left: 0px;
   }
 }
 
@@ -1096,17 +1057,18 @@ gap: 20px;
   width: 50%;
   justify-content: center;
   align-items: center;
-
   padding: 250px;
-}@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 428px) {
   .servicosDiv2 {
-  display: flex;
- flex-wrap: wrap;
-  width: 80%;
-  height: 50%;
-  margin-left: 0px;
-  padding: 0px;
-  margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+    margin-left: 0px;
+    padding: 0px;
+    margin-top: 0;
   }
 }
 
@@ -1132,93 +1094,93 @@ gap: 20px;
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 2.5s ease, transform 1.5s ease;
-
-} 
+}
 
 .cardServicos.active {
   opacity: 5;
   transform: translateY(0);
 }
 
+.carddd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+  width: 80%;
+}
 
-.carddd{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 20px;
-height: 100%;
-width: 80%;
+.teste {
+  font-size: 17px;
+}
 
-  }
+.espec1s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .teste{
-    font-size: 17px;
-  }
+  color: #f7f8f7;
 
-  .espec1s {
-display: flex;
-justify-content: center;
-align-items: center;
+  text-transform: uppercase;
+  border: solid 1px rgb(0, 0, 0);
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: #011a41;
 
+  font-weight: bold;
+  font-size: 20px;
+}
+.especs {
+  color: #011a41;
+  font-size: 50px;
+  font-weight: bold;
+}
+.p {
+  color: #011a41;
+  font: normal 500 22px "Montserrat", sans-serif;
+}
 
-    color: #f7f8f7;
-  
-    text-transform: uppercase;
-    border: solid 1px rgb(0, 0, 0);
-    font-weight: bold;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    color: #011a41;
-  
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .especs {
-   color: #011a41;
-    font-size: 50px;
-    font-weight: bold;
-  }
-  .p{
-    color: #011a41;
-    font: normal 500 22px "Montserrat", sans-serif;
-  }
+.whatsapp-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse 1.5s infinite;
+}
 
- 
-
+@media screen and (max-width: 440px) {
   .whatsapp-button {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: pulse 1.5s infinite;
+    width: 40px;
+    height: 40px;
   }
+}
 
-  .whatsapp-button .fa-whatsapp {
-   color: white;
-    
-  }
+.whatsapp-button .fa-whatsapp {
+  color: white;
+}
 
-  @keyframes pulse {
-    0% {
-      transform: scale(1.5);
-    }
-    50% {
-      transform: scale(1.7);
-    }
-    100% {
-      transform: scale(1.5);
-    }
+@keyframes pulse {
+  0% {
+    transform: scale(1.5);
   }
+  50% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
