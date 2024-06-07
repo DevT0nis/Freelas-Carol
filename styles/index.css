@@ -48,12 +48,20 @@ header .icons-navbar {
     display: none;
   }
 }
+@media screen and (max-width: 528px) {
+  header .tel-header {
+    display: none;
+  }
+}
 @media screen and (max-width: 440px) {
   header  .emaillll {
 display: none;
+  }
+}
 
-  
-
+@media screen and (max-width: 528px) {
+  header .emaillll {
+display: none;
   }
 }
 header .icons-navbar .icon-contato {
@@ -444,6 +452,10 @@ header .btn-header {
   .conteiner-contact {
     width: 90%;
   }
+}@media screen and (max-width: 528px) {
+  .conteiner-contact {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 746px) {
@@ -531,6 +543,14 @@ header .btn-header {
     flex-direction: column;
     text-align: center;
   }
+}@media screen and (max-width: 528px) {
+  .local {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .local iframe {
@@ -554,6 +574,18 @@ header .btn-header {
   border-radius: 20px;
 }
 @media screen and (max-width: 440px) {
+  .locald {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    height: 160%;
+    border-radius: 20px;
+  }
+}@media screen and (max-width: 528px) {
   .locald {
     display: flex;
     align-items: center;
@@ -771,6 +803,20 @@ footer .icons-nav {
     background-repeat: no-repeat;
   }
 }
+@media only screen and (max-width: 528px) {
+  .Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/about.jpg.png");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+}
 
 .home1 {
   display: flex;
@@ -783,6 +829,15 @@ footer .icons-nav {
 }
 
 @media only screen and (max-width: 428px) {
+  .home1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 20%;
+  }
+}@media only screen and (max-width: 528px) {
   .home1 {
     display: flex;
     justify-content: center;
@@ -813,6 +868,16 @@ footer .icons-nav {
     color: #ffffff;
   }
 }
+@media only screen and (max-width: 528px) {
+  .cargo {
+    font-size: 15px;
+  }
+
+  .nomedele {
+    font-size: 34px;
+    color: #ffffff;
+  }
+}
 
 .btn-consulta {
   background-color: #2f1009;
@@ -833,7 +898,14 @@ footer .icons-nav {
     height: 50px;
   }
 }
-
+@media only screen and (max-width: 528px) {
+  .btn-consulta {
+    padding: 5px;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+  }
+}
 .btn-consulta:hover {
   background-color: #011a41;
 }
@@ -847,6 +919,10 @@ footer .icons-nav {
 }
 
 @media only screen and (max-width: 428px) {
+  .home2 {
+    padding: 20px;
+  }
+}@media only screen and (max-width: 528px) {
   .home2 {
     padding: 20px;
   }
@@ -869,6 +945,11 @@ footer .icons-nav {
     height: auto;
     padding: 20px;
   }
+}@media only screen and (max-width: 528px) {
+  .Sobre {
+    height: auto;
+    padding: 20px;
+  }
 }
 
 .div1 {
@@ -879,6 +960,11 @@ footer .icons-nav {
 }
 
 @media only screen and (max-width: 428px) {
+  .div1 {
+    flex-direction: column;
+    height: auto;
+  }
+} @media only screen and (max-width: 528px) {
   .div1 {
     flex-direction: column;
     height: auto;
@@ -895,7 +981,11 @@ footer .icons-nav {
     display: none;
   }
 }
-
+@media only screen and (max-width: 528px) {
+  .foto2 {
+    display: none;
+  }
+}
 .texto {
   display: flex;
   justify-content: center;
@@ -912,6 +1002,14 @@ footer .icons-nav {
     align-items: center;
     width: 80%;
     height: 130vh;
+  }
+}@media only screen and (max-width: 528px) {
+  .texto {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 70vh;
+    margin-top: 50px;
   }
 }
 
@@ -930,6 +1028,15 @@ footer .icons-nav {
     flex-wrap: wrap;
     gap: 20px;
     height: 80vh;
+  }
+}@media only screen and (max-width: 528px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 80vh;
+    
   }
 }
 
@@ -950,6 +1057,14 @@ footer .icons-nav {
     flex-direction: column;
     gap: 50px;
   }
+}@media only screen and (max-width: 528px) {
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    gap: 50px;
+  }
 }
 
 .card {
@@ -963,6 +1078,10 @@ footer .icons-nav {
   .card {
     display: flex;
   }
+}@media only screen and (max-width: 528px) {
+  .card {
+    display: flex;
+  }
 }
 
 .cardd {
@@ -972,6 +1091,12 @@ footer .icons-nav {
 }
 
 @media only screen and (max-width: 428px) {
+  .cardd {
+    display: flex;
+    border: none;
+    border-radius: 20px;
+  }
+}@media only screen and (max-width: 528px) {
   .cardd {
     display: flex;
     border: none;
@@ -991,6 +1116,11 @@ footer .icons-nav {
 }
 
 @media screen and (max-width: 440px) {
+  .divisoriakkk {
+    width: 100%;
+    height: 50px;
+  }
+}@media screen and (max-width: 528px) {
   .divisoriakkk {
     width: 100%;
     height: 50px;
@@ -1026,6 +1156,17 @@ footer .icons-nav {
     gap: 100px;
     width: 100%;
   }
+}@media only screen and (max-width: 528px) {
+  .Serviços {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    height: auto;
+    gap: 100px;
+    width: 100%;
+  }
 }
 
 .servicosDiv1 {
@@ -1049,6 +1190,16 @@ footer .icons-nav {
     height: 20%;
     margin-left: 0px;
   }
+}@media only screen and (max-width: 528px) {
+  .servicosDiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin-left: 0px;
+  }
 }
 
 .servicosDiv2 {
@@ -1061,6 +1212,16 @@ footer .icons-nav {
 }
 
 @media only screen and (max-width: 428px) {
+  .servicosDiv2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+    margin-left: 0px;
+    padding: 0px;
+    margin-top: 0;
+  }
+}@media only screen and (max-width: 528px) {
   .servicosDiv2 {
     display: flex;
     flex-wrap: wrap;
