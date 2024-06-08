@@ -962,7 +962,7 @@ footer .icons-nav {
 @media only screen and (max-width: 428px) {
   .div1 {
     flex-direction: column;
-    height: auto;
+    height: 120vh;
   }
 } @media only screen and (max-width: 528px) {
   .div1 {
@@ -1000,16 +1000,24 @@ footer .icons-nav {
   .texto {
     display: flex;
     align-items: center;
+    text-align: justify;
     width: 80%;
     height: 130vh;
+    h2{
+      text-align: center; 
+    }
   }
 }@media only screen and (max-width: 528px) {
-  .texto {
+  .texto  {
     display: flex;
     align-items: center;
+    text-align: justify;
     width: 80%;
-    height: 70vh;
+    
     margin-top: 50px;
+    h2{
+      text-align: center; 
+    }
   }
 }
 
@@ -1055,6 +1063,8 @@ footer .icons-nav {
   .container-cards {
     display: flex;
     flex-direction: column;
+   width: 70%;
+    height: 80%;
     gap: 50px;
   }
 }@media only screen and (max-width: 528px) {
@@ -1077,10 +1087,15 @@ footer .icons-nav {
 @media only screen and (max-width: 428px) {
   .card {
     display: flex;
+
+    border: none;
+    width: 100%;
   }
 }@media only screen and (max-width: 528px) {
   .card {
     display: flex;
+    border: none;
+    width: 100%;
   }
 }
 
@@ -1095,12 +1110,14 @@ footer .icons-nav {
     display: flex;
     border: none;
     border-radius: 20px;
+    width: 100%;
   }
 }@media only screen and (max-width: 528px) {
   .cardd {
     display: flex;
     border: none;
     border-radius: 20px;
+    width: 100%;
   }
 }
 
