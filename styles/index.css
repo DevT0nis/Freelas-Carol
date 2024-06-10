@@ -550,6 +550,7 @@ header .btn-header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    height: 1000px;
   }
 }
 
@@ -585,7 +586,7 @@ header .btn-header {
     height: 160%;
     border-radius: 20px;
   }
-}@media screen and (max-width: 528px) {
+}@media screen and (max-width: 540px) {
   .locald {
     display: flex;
     align-items: center;
@@ -594,7 +595,7 @@ header .btn-header {
     text-align: center;
     gap: 20px;
     width: 100%;
-    height: 160%;
+    height: 1500px;
     border-radius: 20px;
   }
 }
@@ -630,6 +631,11 @@ header .btn-header {
   .local .adress-info {
     width: 70%;
     justify-content: end;
+  }
+}@media screen and (max-width: 530px) {
+  .p-info .info  {
+    font: normal normal 16px "Montserrat", sans-serif;
+    
   }
 }
 
@@ -1272,6 +1278,18 @@ footer .icons-nav {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 2.5s ease, transform 1.5s ease;
+}@media screen and (max-width: 440px) {
+  .cardServicos {
+
+  height: 350px;
+  width: 300px;
+  }
+}@media screen and (max-width: 540px) {
+  .cardServicos {
+ 
+  height: 350px;
+  width: 300px;
+  }
 }
 
 .cardServicos.active {
@@ -1328,8 +1346,8 @@ footer .icons-nav {
 
 .whatsapp-button {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
