@@ -1132,19 +1132,19 @@ footer .icons-nav {
   justify-content: center;
 }
 
-.divisoriakkk {
+.divider {
   width: 99.12vw;
   height: 200px;
   background-color: #011a41;
 }
 
 @media screen and (max-width: 440px) {
-  .divisoriakkk {
+  .divider {
     width: 100%;
     height: 50px;
   }
 }@media screen and (max-width: 528px) {
-  .divisoriakkk {
+  .divider {
     width: 100%;
     height: 50px;
   }
