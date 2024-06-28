@@ -447,6 +447,10 @@ header .btn-header {
   .conteiner-contact {
     width: 90%;
   }
+}@media screen and (max-width: 1220px) {
+  .conteiner-contact {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 440px) {
   .conteiner-contact {
@@ -552,6 +556,15 @@ header .btn-header {
     text-align: center;
     height: 1000px;
   }
+}@media screen and (max-width: 1228px) {
+  .local {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 1000px;
+  }
 }
 
 .local iframe {
@@ -562,6 +575,10 @@ header .btn-header {
 @media screen and (max-width: 440px) {
   .iframe {
     width: 80%;
+  }
+}@media screen and (max-width: 1220px) {
+  .iframe {
+    width: 100%;
   }
 }
 
@@ -586,6 +603,18 @@ header .btn-header {
     height: 160%;
     border-radius: 20px;
   }
+}@media screen and (max-width: 1240px) {
+  .locald {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    height: 160%;
+    border-radius: 20px;
+  }
 }@media screen and (max-width: 540px) {
   .locald {
     display: flex;
@@ -599,7 +628,11 @@ header .btn-header {
     border-radius: 20px;
   }
 }
-
+@media screen and (max-width: 1220px) {
+  .local iframe {
+    width: 20rem;
+  }
+}
 @media screen and (max-width: 1030px) {
   .local iframe {
     width: 20rem;
@@ -824,6 +857,40 @@ footer .icons-nav {
   }
 }
 
+@media only screen and (max-width: 1228px) {
+  .Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/about.jpg.png");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .Home {
+    display: flex;
+
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+
+    background-repeat: no-repeat;
+
+  
+    height: 80vh;
+    
+  
+ 
+  }
+}
+
+
 .home1 {
   display: flex;
   height: 100%;
@@ -852,7 +919,17 @@ footer .icons-nav {
     height: 100vh;
     width: 20%;
   }
+}@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .home1 {
+    display: flex;
+
+ 
+  
+    width: 50%;
+    
+  }
 }
+
 
 .cargo {
   color: #ffffff;
@@ -885,6 +962,9 @@ footer .icons-nav {
   }
 }
 
+
+
+
 .btn-consulta {
   background-color: #2f1009;
   color: #f7f8f7;
@@ -912,6 +992,7 @@ footer .icons-nav {
     height: 50px;
   }
 }
+
 .btn-consulta:hover {
   background-color: #011a41;
 }
@@ -931,8 +1012,23 @@ footer .icons-nav {
 }@media only screen and (max-width: 528px) {
   .home2 {
     padding: 20px;
+  }}
+
+  @media only screen and (max-width: 1228px) {
+    .home2 {
+      padding: 20px;
+    }
+}@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .home2 {
+   
+
+    width: 50%;
+    
   }
 }
+
+
+
 
 .foto {
   width: 750px;
@@ -956,7 +1052,18 @@ footer .icons-nav {
     height: auto;
     padding: 20px;
   }
-}
+  
+}@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .Sobre {
+height: 120vh;
+padding: 20px;
+    
+  }
+}@media only screen and (max-width: 1228px) {
+  .Sobre {
+    height: auto;
+    padding: 20px;
+  }}
 
 .div1 {
   display: flex;
@@ -975,6 +1082,24 @@ footer .icons-nav {
     flex-direction: column;
     height: auto;
   }
+  
+}@media only screen and (max-width: 1228px) {
+  .div1 {
+    flex-direction: column;
+    height: auto;
+  }
+  
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .div1 {
+    display: flex;
+
+ height: 100vh;
+  
+  margin-top: 20px;
+    
+  }
 }
 
 .foto2 {
@@ -983,6 +1108,10 @@ footer .icons-nav {
   border-radius: 20px;
 }
 @media only screen and (max-width: 428px) {
+  .foto2 {
+    display: none;
+  }
+}@media only screen and (max-width: 1228px) {
   .foto2 {
     display: none;
   }
@@ -1025,6 +1154,18 @@ footer .icons-nav {
       text-align: center; 
     }
   }
+}@media only screen and (max-width: 1228px) {
+  .texto  {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    width: 80%;
+    
+    margin-top: 50px;
+    h2{
+      text-align: center; 
+    }
+  }
 }
 
 .cards {
@@ -1052,6 +1193,16 @@ footer .icons-nav {
     height: 80vh;
     
   }
+}@media only screen and (max-width: 1228px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 50vh;
+
+    
+  }
 }
 
 .container-cards {
@@ -1075,11 +1226,20 @@ footer .icons-nav {
   }
 }@media only screen and (max-width: 528px) {
   .container-cards {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 70%;
     height: 80%;
     gap: 50px;
+  }
+}@media only screen and (max-width: 1228px) {
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 150%;
+    gap: 50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1098,6 +1258,12 @@ footer .icons-nav {
     width: 100%;
   }
 }@media only screen and (max-width: 528px) {
+  .card {
+    display: flex;
+    border: none;
+    width: 100%;
+  }
+}@media only screen and (max-width: 1228px) {
   .card {
     display: flex;
     border: none;
@@ -1148,6 +1314,15 @@ footer .icons-nav {
     width: 100%;
     height: 50px;
   }
+}@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .divider {
+   width: 100%;
+    
+ 
+
+
+    
+  }
 }
 
 .Localização {
@@ -1190,6 +1365,23 @@ footer .icons-nav {
     gap: 100px;
     width: 100%;
   }
+}@media only screen and (max-width: 1228px) {
+  .Serviços {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    height: auto;
+    gap: 100px;
+    width: 100%;
+  }
+}@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .Serviços {
+    display: flex;
+width: 100vw;
+    
+  }
 }
 
 .servicosDiv1 {
@@ -1214,6 +1406,16 @@ footer .icons-nav {
     margin-left: 0px;
   }
 }@media only screen and (max-width: 528px) {
+  .servicosDiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin-left: 0px;
+  }
+}@media only screen and (max-width: 1228px) {
   .servicosDiv1 {
     display: flex;
     align-items: center;
@@ -1254,6 +1456,27 @@ footer .icons-nav {
     padding: 0px;
     margin-top: 0;
   }
+}@media only screen and (max-width: 1228px) {
+  .servicosDiv2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+    margin-left: 0px;
+    padding: 0px;
+    margin-top: 0;
+  }
+}@media only screen and (min-width: 769px) and (max-width: 1324px) {
+  .servicosDiv2 {
+    display: flex;
+    
+    width: 80%;
+    height: 50%;
+    margin-left: 0px;
+    padding: 0px;
+    margin-top: 0;
+    
+  }
 }
 
 .separador {
@@ -1289,6 +1512,12 @@ footer .icons-nav {
  
   height: 350px;
   width: 300px;
+  }
+}@media screen and (max-width: 1240px) {
+  .cardServicos {
+ 
+  height: 350px;
+  width: 400px;
   }
 }
 
